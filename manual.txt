@@ -1,0 +1,18 @@
+// FOR INSTALLING PACKAGES
+
+    npm install 
+
+
+// FOR RUNNING THE PLAYWRGITH CODEGEN RECORDER OR THE APPLICATION
+
+    npx playwright codegen google.com -o "./tests/file_name.spec.js" --save-har=./sessions/file_name-session.har
+
+
+// FOR RUNNING A TEST 
+
+    npx playwright test -g "test_name"
+
+
+// FOR VIEWING THE TRACE
+
+    npx playwright show-trace ./test-results/new-test-chromium/trace.zip
